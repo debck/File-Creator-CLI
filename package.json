@@ -1,20 +1,36 @@
 {
-  "name": "file-creater",
-  "version": "1.0.0",
-  "description": "A CLI tool which creates required files",
-  "main": "app.js",
+  "name": "filecreator-cli",
+  "version": "1.2.0",
+  "description": "A CLI tool which creates required files with all type of file extension.",
+  "main": "./lib/create.js",
   "bin": {
-    "creator": "./app.js"
+    "create": "./bin/app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Debasish",
+  "author": "Debasish Sahoo",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
     "figlet": "^1.2.0",
     "inquirer": "^6.0.0",
     "shelljs": "^0.8.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debck/File-Creator.git"
+  },
+  "keywords": [
+    "create",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/debck/File-Creator/issues"
+  },
+  "homepage": "https://github.com/debck/File-Creator#readme"
 }
