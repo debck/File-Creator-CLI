@@ -10,3 +10,7 @@
 * type `create` in your shell
 * Answer the questions asked about `File Name` and `Extension`  and press `Enter`
 * :tada: Your file is ready
+
+## Preview
+
+![preview](gif/usage.gif)
