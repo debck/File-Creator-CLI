@@ -6,7 +6,7 @@
 ### Installation and running locally
 * cd to the cloned repo
 * npm install -g 
-You are ready :tada:
+> You are ready :tada:
 #### Before working on an issue, please ask for assignment by commenting on the issue itself to avoid multiple PR
 
 
