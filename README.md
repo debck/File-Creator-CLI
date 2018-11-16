@@ -14,3 +14,6 @@
 ## Preview
 
 ![preview](gif/usage.gif)
+
+
+> Made with :heart: for Windows 💻  users.
