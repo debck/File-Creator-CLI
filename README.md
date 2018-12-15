@@ -2,6 +2,8 @@
 <h2 align="center">File-Creator-CLI</h2>
 <h2 align="center">A simple Command Line application which allows you to create files in your directory/folder, with all types of file extension <bold>in a more interactive way.</bold></h2>
 
+> Made with :heart: for Windows 💻  users, who cannot use `touch` command to create files :+1:
+
 ## Installation: 
 ` npm install -g filecreator-cli ` 
 
@@ -16,4 +18,4 @@
 ![preview](gif/usage.gif)
 
 
-> Made with :heart: for Windows 💻  users.
+
