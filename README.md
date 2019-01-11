@@ -17,5 +17,7 @@
 
 ![preview](gif/usage.gif)
 
-
+## Communication
+> If you have any specific queries related to the project and you are participating in [OpenCode19](https://opencodeiiita.github.io/)
+then ask in the slack channel [#file-creator-cli](https://opencodeiiita.slack.com/messages/CFBRTFFJN/)
 
