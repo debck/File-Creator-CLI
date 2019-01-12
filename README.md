@@ -8,10 +8,11 @@
 ` npm install -g filecreator-cli ` 
 
 ## Usage:
-* `cd` to the `directory/folder` where u want to create your file using command line
+* `cd` to the `directory/folder` where u want to create your file/folder using command line
 * type `create` in your shell
-* Answer the questions asked about `File Name` and `Extension`  and press `Enter`
-* :tada: Your file is ready
+* Answer the questions about creating `directory` or `file`, 
+  enter  `details` asked and press `Enter`
+* :tada: Your file/folder is ready
 
 ## Preview
 
