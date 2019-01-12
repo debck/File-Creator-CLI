@@ -15,7 +15,7 @@ const main = async () => {
 
 	const { isdir } = result;
 
-	if (isdir === 'Y' || isdir === 'y') {
+	if (isdir === 'd') {
 		const dir_res = await ifdir.getdir();
 		const { dirname } = dir_res;
 		create.createdir(dirname);
