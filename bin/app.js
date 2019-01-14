@@ -6,7 +6,7 @@ const question = require('../lib/question');
 const create = require('../lib/create');
 const ifdir = require('../lib/ifdir');
 
-exports.main = async () => {
+const main = exports.main = async () => {
 	header.init();
 
 	const result = await ifdir.ask();
@@ -33,3 +33,5 @@ exports.main = async () => {
 		return 2;
 	}
 }
+
+main();
