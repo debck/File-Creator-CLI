@@ -1,8 +1,5 @@
-const header = require('../lib/header');
 const create = require('../lib/create');
-const question = require('../lib/question');
-const ifdir = require('../lib/ifdir');
-const sub = require('../bin/sub');
+const app = require('../bin/app');
 const stdin = require('mock-stdin').stdin();
 
 async function sleep(ms) {
@@ -20,12 +17,12 @@ it('tests create module', () => {
 	expect(ret_f).toBe(0);
 });
 
-const one = it('tests cli mode directory creation, and works with await', async () => {
+it('tests cli mode directory creation, and works with await', async () => {
 	stdin.end();
 	stdin.reset();
 
 	expect.assertions(1);
-	const result = sub.main();
+	const result = app.main();
 	stdin.send('d\n', 'ascii');
 	await sleep(50);
 	stdin.send('tmp\n', 'ascii');

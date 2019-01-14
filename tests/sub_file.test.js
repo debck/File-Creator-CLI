@@ -1,8 +1,4 @@
-const header = require('../lib/header');
-const create = require('../lib/create');
-const question = require('../lib/question');
-const ifdir = require('../lib/ifdir');
-const sub = require('../bin/sub');
+const app = require('../bin/app');
 const stdin = require('mock-stdin').stdin();
 
 async function sleep(ms) {
@@ -14,7 +10,7 @@ it('test cli mode file creation, and works with await', async () => {
 	stdin.reset();
 
 	expect.assertions(1);
-	const result = sub.main();
+	const result = app.main();
 	stdin.send('f\n', 'ascii');
 	await sleep(50);
 	stdin.send('tmp\n', 'ascii');
