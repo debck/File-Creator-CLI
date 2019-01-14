@@ -32,6 +32,8 @@ const main = exports.main = async () => {
 		// Invalid response in isdir
 		return 2;
 	}
+
+	process.exit(0);
 }
 
 main();
