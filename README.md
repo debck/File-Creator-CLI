@@ -5,6 +5,9 @@
 > Made with :heart: for Windows 💻  users, who cannot use `touch` command to create files :+1:
 
 ## Installation: 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a8dfbaeb7474564ac9bd4d39e0ba20b)](https://app.codacy.com/app/debck/File-Creator-CLI?utm_source=github.com&utm_medium=referral&utm_content=debck/File-Creator-CLI&utm_campaign=Badge_Grade_Settings)
+
 ` npm install -g filecreator-cli ` 
 
 ## Usage:
