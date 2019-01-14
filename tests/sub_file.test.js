@@ -1,4 +1,4 @@
-const app = require('../bin/app');
+const app = require('../bin/sub');
 const stdin = require('mock-stdin').stdin();
 
 async function sleep(ms) {
