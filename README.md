@@ -4,6 +4,13 @@
 
 > Made with :heart: for Windows 💻  users, who cannot use `touch` command to create files :+1:
 
+<!--Remove the ones not wanted-->
+![Dependancy Status](https://david-dm.org/debck/File-Creator-CLI.svg)
+![NPM Version](https://badge.fury.io/js/filecreator-cli.svg)
+![MIT License](https://img.shields.io/github/license/debck/File-Creator-CLI.svg?style=flat-square)
+![Codacy Coverage](https://img.shields.io/codacy/coverage/:projectId.svg)
+![codacy Grade](https://img.shields.io/codacy/grade/:projectId.svg)
+
 ## Installation: 
 ` npm install -g filecreator-cli ` 
 
