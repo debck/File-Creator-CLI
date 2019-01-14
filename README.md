@@ -4,12 +4,9 @@
 
 > Made with :heart: for Windows 💻  users, who cannot use `touch` command to create files :+1:
 
-## Badges
 <!--Remove the ones not wanted-->
 [![Inline docs](http://inch-ci.org/github/Archies11/File-Creator-CLI.svg?branch=master)](http://inch-ci.org/github/Archies11/File-Creator-CLI)
-
 ![Dependancy Status](https://david-dm.org/%7B%7Busername%7D%7D/%7B%7Bproject_name%7D%7D.svg)
-
 ![Build Status](https://ci.appveyor.com/api/projects/status/%7B%7Bstatus_id%7D%7D)
 
 
