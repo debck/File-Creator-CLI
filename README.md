@@ -8,7 +8,10 @@
 [![Inline docs](http://inch-ci.org/github/Archies11/File-Creator-CLI.svg?branch=master)](http://inch-ci.org/github/Archies11/File-Creator-CLI)
 ![Dependancy Status](https://david-dm.org/%7B%7Busername%7D%7D/%7B%7Bproject_name%7D%7D.svg)
 ![Build Status](https://ci.appveyor.com/api/projects/status/%7B%7Bstatus_id%7D%7D)
-
+![NPM Version](https://img.shields.io/npm/v/:packageName.svg)
+![MIT License](https://img.shields.io/npm/l/:packageName.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com)
+![Codacy Coverage](https://img.shields.io/codacy/coverage/:projectId.svg)
+![codacy Grade](https://img.shields.io/codacy/grade/:projectId.svg)
 
 ## Installation: 
 ` npm install -g filecreator-cli ` 
