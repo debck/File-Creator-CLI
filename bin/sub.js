@@ -1,34 +1,44 @@
-const inquirer = require('inquirer');
-const chalk = require('chalk');
-const header = require('../lib/header');
-const question = require('../lib/question');
-const create = require('../lib/create');
-const ifdir = require('../lib/ifdir');
+const inquirer = require("inquirer");
+const chalk = require("chalk");
+const header = require("../lib/header");
+const question = require("../lib/question");
+const create = require("../lib/create");
+const ifdir = require("../lib/ifdir");
 
-const main = exports.main = async () => {
-	header.init();
+const func = require("../lib/functions");
 
-	const result = await ifdir.ask();
+const main = (exports.main = async () => {
+  header.init();
 
-	const { isdir } = result;
+  const result = await ifdir.ask();
 
-	if (isdir === 'd') {
-		const dir_res = await ifdir.getdir();
-		const { dirname } = dir_res;
-		create.createdir(dirname);
+  const { isdir } = result;
 
-		return 0;
-	} else if (isdir === 'f') {
-		const input = await question.questions();
-		// console.log(input);
-		const { filename, extension } = input;
-		// console.log(filename);
-		create.create(filename, extension);
-		console.log(chalk.blue('File created successfully') + chalk.red('!!!'));
+  if (isdir === "d") {
+    const dir_res = await ifdir.getdir();
+    const { dirname } = dir_res;
+    create.createdir(dirname);
 
-		return 0;
-	} else {
-		// Invalid response in isdir
-		return 2;
-	}
-}
+    return 0;
+  } else if (isdir === "f") {
+    const input = await question.questions();
+    // console.log(input);
+    const { filename, extension } = input;
+    // console.log(filename);
+    create.create(filename, extension);
+    console.log(chalk.blue("File created successfully") + chalk.red("!!!"));
+
+    return 0;
+  } else if (isdir === "dld") {
+    func.deletedirec();
+  } else if (isdir === "df") {
+    func.deletefile();
+  } else if (isdir === "fs") {
+    func.filesize();
+  } else if (isdir === "rf") {
+    func.renamefile();
+  } else {
+    // Invalid response in isdir
+    return 2;
+  }
+});
