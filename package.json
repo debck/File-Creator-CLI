@@ -19,7 +19,9 @@
     "chalk": "^2.4.1",
     "figlet": "^1.2.0",
     "inquirer": "^6.0.0",
-    "shelljs": "^0.8.2"
+    "npm-build": "0.0.1",
+    "shelljs": "^0.8.2",
+    "bdd-stdin": "^0.2.0"
   },
   "directories": {
     "lib": "lib"
@@ -30,7 +32,8 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
-    "jest": "^23.4.2"
+    "mock-stdin": "^0.3.1",
+    "jest": "^23.6.0"
   },
   "repository": {
     "type": "git",
