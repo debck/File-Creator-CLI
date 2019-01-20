@@ -18,7 +18,9 @@ const main = (exports.main = async () => {
     const dir_res = await ifdir.getdir();
     const { dirname } = dir_res;
     create.createdir(dirname);
-
+    console.log(
+      chalk.blue("Directory created successfully") + chalk.red("!!!")
+    );
     return 0;
   } else if (isdir === "f") {
     const input = await question.questions();
