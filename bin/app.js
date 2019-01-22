@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-const sub = require("./sub.js");
+'use strict';
+const sub = require('./sub.js');
 
 sub.main();
