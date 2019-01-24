@@ -5,10 +5,10 @@
 > Made with :heart: for Windows 💻  users, who cannot use `touch` command to create files :+1:
 
 <!--Remove the ones not wanted-->
+![Travis CI](https://img.shields.io/travis/com/debck/File-Creator-CLI/master.svg?style=flat-square)
 ![Dependancy Status](https://david-dm.org/debck/File-Creator-CLI.svg)
 ![NPM Version](https://badge.fury.io/js/filecreator-cli.svg)
 ![MIT License](https://img.shields.io/github/license/debck/File-Creator-CLI.svg?style=flat-square)
-![Codacy Coverage](https://img.shields.io/codacy/coverage/:projectId.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/151425cd67f54195aedcf9a04a6ad731)](https://www.codacy.com/app/debck/File-Creator-CLI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=debck/File-Creator-CLI&amp;utm_campaign=Badge_Grade)
 
 ## Installation: 
