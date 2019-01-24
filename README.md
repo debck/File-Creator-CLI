@@ -10,7 +10,7 @@
 ![NPM Version](https://badge.fury.io/js/filecreator-cli.svg)
 ![MIT License](https://img.shields.io/github/license/debck/File-Creator-CLI.svg?style=flat-square)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/151425cd67f54195aedcf9a04a6ad731)](https://www.codacy.com/app/debck/File-Creator-CLI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=debck/File-Creator-CLI&amp;utm_campaign=Badge_Grade)
-
+![commit](https://img.shields.io/github/last-commit/debck/File-Creator-CLI.svg)
 ## Installation: 
 ` npm install -g filecreator-cli ` 
 
