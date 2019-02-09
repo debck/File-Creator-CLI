@@ -7,7 +7,8 @@
     "create": "./bin/app.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "pretest": "eslint --fix --ignore-path .gitignore ."
   },
   "jest": {
     "verbose": true,
@@ -16,21 +17,27 @@
   "author": "Debasish Sahoo",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "figlet": "^1.2.0",
-    "inquirer": "^6.0.0",
-    "shelljs": "^0.8.2"
+    "bdd-stdin": "^0.2.0",
+    "cfonts": "^2.4.1",
+    "chalk": "^2.4.2",
+    "eslint-plugin-jest": "^22.2.2",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "npm-build": "0.0.1",
+    "shelljs": "^0.8.3"
   },
   "directories": {
     "lib": "lib"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "jest": "^23.4.2"
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^23.6.0",
+    "mock-stdin": "^0.3.1"
   },
   "repository": {
     "type": "git",
