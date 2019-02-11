@@ -12,7 +12,8 @@ exports.main = async() => {
 
   const result = await ifdir.ask();
 
-  const { isdir } = result;
+  var { isdir } = result;
+  isdir = isdir.toLowerCase();
 
   if (isdir === 'd') {
     const dirRes = await ifdir.getdir();
