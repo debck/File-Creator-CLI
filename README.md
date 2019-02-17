@@ -37,10 +37,6 @@ Steps to follow:
 * Run `node app.js` to start the server.
 > Always run tests before commiting using `npm run test` ( It will also check for linting issues)
 
-## Preview
-
-![preview](gif/usage.gif)
-
 ## Communication
 > If you have any specific queries related to the project drop an issue. 
 
