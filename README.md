@@ -25,13 +25,22 @@ Steps to follow:
 2. type `create` in your shell
 3. Answer the questions about creating `directory` or `file`, 
   enter  `details` asked and press `Enter`
-4. :tada: Your file/folder is ready
+4. You can type `help` or `h` to see all commands available.
+5. :tada: Your file/folder is ready
+
+
+## Running locally: 
+* Fork and clone the repo.
+* `cd ` to the project directory eg. `cd File-Creator-CLI`
+* Type `npm i` to install all packages.
+* Now `cd bin` to go to the bin folder.
+* Run `node app.js` to start the server.
+> Always run tests before commiting using `npm run test` ( It will also check for linting issues)
 
 ## Preview
 
 ![preview](gif/usage.gif)
 
 ## Communication
-> If you have any specific queries related to the project and you are participating in [OpenCode19](https://opencodeiiita.github.io/)
-then ask in the slack channel [#file-creator-cli](https://opencodeiiita.slack.com/messages/CFBRTFFJN/)
+> If you have any specific queries related to the project drop an issue. 
 
