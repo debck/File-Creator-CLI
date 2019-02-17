@@ -45,8 +45,8 @@ exports.main = async() => {
   } else if (isdir === 'h' || isdir === 'help') {
     console.log(
       chalk.green(
-        'Commands for-\n 1. Directory\n Create: d\n Delete: dld\n' +
-          '2. File\n create: f\n Delete: df\n Rename: rf\n Size: fs'
+        'Commands for-\n1. Directory\n \tCreate: d\n \tDelete: dld\n' +
+          '2. File\n \tCreate: f\n \tDelete: df\n \tRename: rf\n \tSize  : fs'
       )
     );
   } else {
