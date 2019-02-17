@@ -1,6 +1,6 @@
 {
   "name": "filecreator-cli",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A CLI tool which creates required files with all type of file extension.",
   "main": "./lib/create.js",
   "bin": {
