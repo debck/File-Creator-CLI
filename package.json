@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "pretest": "eslint --fix --ignore-path .gitignore ."
+    "pretest": "eslint --fix --ignore-path .gitignore .",
+    "start": "node bin/app.js"	
   },
   "jest": {
     "verbose": true,
