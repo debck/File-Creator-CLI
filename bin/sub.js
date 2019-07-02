@@ -27,9 +27,9 @@ exports.main = async() => {
   if (isdir === 'f') {
     const input = await question.questions();
     // console.log(input);
-    const { filename, extension } = input;
+    const { filename } = input;
     // console.log(filename);
-    create.create(filename, extension);
+    create.create(filename);
     console.log(chalk.blue('File created successfully') + chalk.red('!!!'));
 
     return 0;
