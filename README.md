@@ -33,8 +33,7 @@ Steps to follow:
 * Fork and clone the repo.
 * `cd ` to the project directory eg. `cd File-Creator-CLI`
 * Type `npm i` to install all packages.
-* Now `cd bin` to go to the bin folder.
-* Run `node app.js` to start the server.
+* Run `npm start` to start the server.
 > Always run tests before commiting using `npm run test` ( It will also check for linting issues)
 
 ## Communication
