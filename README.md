@@ -11,14 +11,14 @@
 ![MIT License](https://img.shields.io/github/license/debck/File-Creator-CLI.svg?style=flat-square)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/64aa86eeb6d44a7fb0848c05cfe9c9bb)](https://www.codacy.com/app/debck/File-Creator-CLI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=debck/File-Creator-CLI&amp;utm_campaign=Badge_Grade)
 ![commit](https://img.shields.io/github/last-commit/debck/File-Creator-CLI.svg)
-## Installation: 
+## Installation 
 ` npm install -g filecreator-cli ` 
 
-## Usage:
-* Create a directory/file
-* Delete a directory/file
-* Rename a file
-* Get file size
+## Usage
+*  Create a directory/file
+*  Delete a directory/file
+*  Rename a file
+*  Get file size
 
 Steps to follow:
 1. `cd` to the `directory/folder` where u want to create your file/folder using command line
@@ -28,13 +28,13 @@ Steps to follow:
 4. You can type `help` or `h` to see all commands available.
 5. :tada: Your file/folder is ready
 
+## Running locally
+*  Fork and clone the repo.
+*  `cd ` to the project directory eg. `cd File-Creator-CLI`
+*  Type `npm i` to install all packages.
+*  Run `npm start` to start the server.
 
-## Running locally: 
-* Fork and clone the repo.
-* `cd ` to the project directory eg. `cd File-Creator-CLI`
-* Type `npm i` to install all packages.
-* Run `npm start` to start the server.
-> Always run tests before commiting using `npm run test` ( It will also check for linting issues)
+>  Always run tests before commiting using `npm run test` ( It will also check for linting issues)
 
 ## Communication
 > If you have any specific queries related to the project drop an issue. 
